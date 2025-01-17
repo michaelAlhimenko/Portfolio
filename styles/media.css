@@ -1,0 +1,101 @@
+@media (max-width:1360px){
+    .sidebar{
+        display: none;
+    }
+}
+@media (max-width:1200px) {
+    .container {
+        max-width: 990px;
+    }
+    .experience__wrapper {
+            padding: 40px 20px 0 20px;
+            grid-template-columns: repeat(2,360px);
+            gap: 100px;
+    }
+    .contacts__layout {
+        padding: 0;
+        grid-template-columns: 400px 520px;
+    }
+    .form {
+        grid-template: 45px 190px 45px / repeat(2, 250px);
+    }
+}
+
+@media (max-width:1024px) {
+    .container {
+        max-width: 720px;
+    }
+    .experience__wrapper{
+        column-gap: 100px;
+        grid-template-columns: repeat(2, 333px);
+    }
+    .contacts__layout{
+        grid-template-columns: 300px 400px;
+    }
+    .contacts__form-head{
+        gap:10px
+    }
+}
+@media (max-width:768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 10px;
+    }
+    .contacts__layout {
+        grid-template-columns: 300px 400px;
+    }
+    .burger{
+        top:20px;
+        right:20px;
+    }
+    .navigation{
+        width: 250px;
+    }
+    .experience__wrapper{
+        grid-template-columns: 1fr;
+        padding: 20px 0;
+        column-gap: 60px;
+        row-gap: 40px;
+    }
+    .experience .divider {
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+    .contacts {
+        margin: 40px 0;
+    }
+    .contacts__photo {
+        display: none;
+    }
+    .contacts__layout{
+        grid-template-columns: 1fr;
+    }
+    .form{
+        grid-template: 45px 190px 45px / repeat(2, 250px);
+    }
+    .contacts__form-head{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    .container {
+        padding: 0 10px;
+    }
+    .promo{
+        background: url('./image/Background_mobile.png') no-repeat;
+        background-size: 100% 100%;
+        height: 100vh;
+    }
+    .promo__title{
+        height: 77px;
+        line-height: normal;
+    }
+    .title_36px{
+        font-size: 24px;
+    }
+    .promo__title{
+        font-size: 26px;
+    }
+}
