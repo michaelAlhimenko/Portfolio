@@ -103,7 +103,7 @@ body{
 .promo{
     box-sizing: border-box;
     height: 800px;
-    background: url('./image/Background.jpg') no-repeat 50%/cover;
+    background: url('../image/Background.jpg') no-repeat 50%/cover;
     padding-top: 206px;
     position: relative;
 }
